@@ -1,0 +1,10 @@
+Benchmark -> Solutions on Google Drive File
+
+Improvements:
+ - use o2 for performance boost
+ - use more flags for performance boost
+ - use a thread per section (picture height/nr of threads)
+ - check cache misses behaved by for loop (maybe change loop variables)
+
+parallelize:
+ - split picture into sub pictures and do the calculation for each sub picture with a seperate thread
