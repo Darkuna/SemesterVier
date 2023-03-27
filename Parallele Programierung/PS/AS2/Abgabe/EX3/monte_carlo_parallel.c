@@ -3,8 +3,8 @@
 #include <math.h>
 #include <pthread.h>
 
-#define NUM_THREADS 10
-#define N 10000000
+#define NUM_THREADS 8
+#define N 700000000
 
 struct args{
     int id[NUM_THREADS];
